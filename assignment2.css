@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  margin: 0;
+}
+
+.first-box {
+  padding: 20px 30px 25px 15px;
+  border: 2px black solid;
+  margin: 10px 15px 5px 25px;
+  height: 300px;
+  width: 50%;
+  box-sizing: border-box;
+  display: none;
+  /* display: inline-block; */
+}
+
+.second-box {
+  padding: 20px 30px 25px 15px;
+  border: 2px red solid;
+  margin: 10px 15px 5px 25px;
+  height: 300px;
+  width: 50%;
+  box-sizing: border-box;
+  /* display: inline-block; */
+}
+.second-box:hover {
+  color: white;
+  background: red;
+}
