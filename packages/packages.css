@@ -29,6 +29,9 @@ main {
   padding: 32px;
 }
 
+.package__badge {
+}
+
 .package__subtitle {
   color: #979797;
 }
