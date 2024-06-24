@@ -9,7 +9,7 @@ body {
 
 .main-header {
   width: 100%;
-  position: fixed;
+  position: relative;
   background: #2ddf5c;
   padding: 8px 16px;
   z-index: 1;
@@ -32,6 +32,7 @@ body {
   text-align: right;
   width: calc(100% - 74px);
   vertical-align: middle;
+  /* position: fixed; */
 }
 
 .main-nav__items {
