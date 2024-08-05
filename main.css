@@ -133,6 +133,13 @@
   width: 30%;
   vertical-align: top;
 }
+@media (min-width: 40rem) {
+  .key-feature {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
 
 .key-feature__image {
   background: #ffcede;
