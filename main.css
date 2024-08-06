@@ -128,16 +128,12 @@
   text-align: center;
 }
 
-.key-feature {
-  display: inline-block;
-  width: 30%;
-  vertical-align: top;
-}
 @media (min-width: 40rem) {
   .key-feature {
-    display: block;
-    width: 100%;
-    text-align: center;
+    display: inline-block;
+    width: 30%;
+    max-width: 25rem;
+    vertical-align: top;
   }
 }
 
